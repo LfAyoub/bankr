@@ -1,0 +1,12 @@
+.expenses {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 1000px) {
+  .expenses {
+    margin-top: 100px;
+    margin-left: 15%;
+  }
+}

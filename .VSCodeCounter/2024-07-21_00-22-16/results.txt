@@ -1,0 +1,146 @@
+Date : 2024-07-21 00:22:16
+Directory : c:\Users\alafd\Desktop\React\bankr
+Total : 106 files,  13210 codes, 121 comments, 584 blanks, all 13915 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |          2 |      9,199 |          0 |          2 |      9,201 |
+| JavaScript JSX |         59 |      2,972 |        111 |        394 |      3,477 |
+| CSS            |         39 |        991 |          9 |        180 |      1,180 |
+| JavaScript     |          2 |         28 |          1 |          3 |         32 |
+| HTML           |          1 |         13 |          0 |          1 |         14 |
+| Markdown       |          1 |          5 |          0 |          4 |          9 |
+| XML            |          2 |          2 |          0 |          0 |          2 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                               | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                  |        106 |     13,210 |        121 |        584 |     13,915 |
+| . (Files)                                                                          |          6 |      9,245 |          1 |         10 |      9,256 |
+| public                                                                             |          1 |          1 |          0 |          0 |          1 |
+| src                                                                                |         99 |      3,964 |        120 |        574 |      4,658 |
+| src (Files)                                                                        |          4 |         55 |          0 |         14 |         69 |
+| src\assets                                                                         |          1 |          1 |          0 |          0 |          1 |
+| src\components                                                                     |         64 |      2,848 |         52 |        391 |      3,291 |
+| src\components (Files)                                                             |         57 |      2,766 |         52 |        376 |      3,194 |
+| src\components\landing                                                             |          7 |         82 |          0 |         15 |         97 |
+| src\contexts                                                                       |          7 |        282 |         59 |         64 |        405 |
+| src\pages                                                                          |         23 |        778 |          9 |        105 |        892 |
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                           | language       | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\alafd\Desktop\React\bankr\.eslintrc.cjs                                   | JavaScript     |         23 |          0 |          1 |         24 |
+| c:\Users\alafd\Desktop\React\bankr\README.md                                       | Markdown       |          5 |          0 |          4 |          9 |
+| c:\Users\alafd\Desktop\React\bankr\index.html                                      | HTML           |         13 |          0 |          1 |         14 |
+| c:\Users\alafd\Desktop\React\bankr\package-lock.json                               | JSON           |      9,158 |          0 |          1 |      9,159 |
+| c:\Users\alafd\Desktop\React\bankr\package.json                                    | JSON           |         41 |          0 |          1 |         42 |
+| c:\Users\alafd\Desktop\React\bankr\public\vite.svg                                 | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\alafd\Desktop\React\bankr\src\App.css                                     | CSS            |         11 |          0 |          3 |         14 |
+| c:\Users\alafd\Desktop\React\bankr\src\App.jsx                                     | JavaScript JSX |         17 |          0 |          5 |         22 |
+| c:\Users\alafd\Desktop\React\bankr\src\assets\react.svg                            | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\AddSpaceItem.jsx                 | JavaScript JSX |         20 |          0 |          4 |         24 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\AddSpaceItem.module.css          | CSS            |         26 |          0 |          4 |         30 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\AnimatedRoutes.jsx               | JavaScript JSX |        110 |          0 |          5 |        115 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\BackButton.jsx                   | JavaScript JSX |         30 |          0 |          6 |         36 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\BackButton.module.css            | CSS            |          9 |          0 |          1 |         10 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\Balance.jsx                      | JavaScript JSX |          9 |          0 |          5 |         14 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\Balance.module.css               | CSS            |         10 |          0 |          1 |         11 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\BeneficiaryModal.jsx             | JavaScript JSX |        100 |          0 |          7 |        107 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\BeneficiaryModal.module.css      | CSS            |         35 |          0 |          7 |         42 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\CreateTransactionForm.jsx        | JavaScript JSX |         81 |          0 |          7 |         88 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\CreateTransactionForm.module.css | CSS            |         22 |          0 |          5 |         27 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\DeleteModal.jsx                  | JavaScript JSX |         77 |          0 |          5 |         82 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\DeleteModal.module.css           | CSS            |         29 |          0 |          5 |         34 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\ExpenseItem.jsx                  | JavaScript JSX |         47 |          0 |          7 |         54 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\ExpenseItem.module.css           | CSS            |         54 |          0 |         10 |         64 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\ExpensesGraph-V2.jsx             | JavaScript JSX |        112 |          4 |         16 |        132 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\ExpensesGraph.jsx                | JavaScript JSX |        131 |          4 |         15 |        150 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\ExpensesGraph.module.css         | CSS            |         12 |          0 |          2 |         14 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\ExpensesList.jsx                 | JavaScript JSX |         58 |          0 |          7 |         65 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\ExpensesList.module.css          | CSS            |         18 |          0 |          4 |         22 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\Footer.jsx                       | JavaScript JSX |         15 |          0 |          3 |         18 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\Footer.module.css                | CSS            |         35 |          0 |          6 |         41 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\HomepageExpenses.jsx             | JavaScript JSX |         32 |          0 |          6 |         38 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\HomepageGraph.jsx                | JavaScript JSX |         19 |          0 |          4 |         23 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\HomepageSection.module.css       | CSS            |         56 |          0 |         10 |         66 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\HomepageSpaces.jsx               | JavaScript JSX |         48 |          4 |          9 |         61 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\HomepageTransfer.jsx             | JavaScript JSX |         39 |          0 |          6 |         45 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\LoginForm.jsx                    | JavaScript JSX |         53 |         24 |          9 |         86 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\LoginForm.module.css             | CSS            |         19 |          0 |          3 |         22 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\LogoutModal.jsx                  | JavaScript JSX |         40 |          0 |          5 |         45 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\LogoutModal.module.css           | CSS            |         35 |          0 |          4 |         39 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\LogsList.jsx                     | JavaScript JSX |         50 |          0 |          6 |         56 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\LogsList.module.css              | CSS            |         14 |          0 |          2 |         16 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\ManageExpenseForm.jsx            | JavaScript JSX |         92 |          0 |          9 |        101 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\ManageExpenseForm.module.css     | CSS            |         63 |          0 |         13 |         76 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\ManageSpaceForm.jsx              | JavaScript JSX |         84 |          0 |         11 |         95 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\ManageSpaceForm.module.css       | CSS            |         30 |          0 |          5 |         35 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\MobileNav.jsx                    | JavaScript JSX |         88 |          0 |          4 |         92 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\MobileNav.module.css             | CSS            |         66 |          0 |         16 |         82 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\Sidebar.jsx                      | JavaScript JSX |         74 |          0 |          5 |         79 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\Sidebar.module.css               | CSS            |         37 |          0 |          7 |         44 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\SortSelect.jsx                   | JavaScript JSX |         19 |          0 |          5 |         24 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\SortSelect.module.css            | CSS            |         15 |          0 |          2 |         17 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\SpaceExpenses.jsx                | JavaScript JSX |         89 |          2 |          6 |         97 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\SpaceExpenses.module.css         | CSS            |          5 |          0 |          2 |          7 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\SpaceForm.jsx                    | JavaScript JSX |         61 |          0 |          8 |         69 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\SpaceForm.module.css             | CSS            |         16 |          0 |          3 |         19 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\SpaceItem.jsx                    | JavaScript JSX |         32 |          0 |          4 |         36 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\SpaceItem.module.css             | CSS            |         59 |          0 |         11 |         70 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\SpacesList.jsx                   | JavaScript JSX |         21 |          0 |          5 |         26 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\SpacesList.module.css            | CSS            |          0 |          0 |          1 |          1 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\TransferItem.jsx                 | JavaScript JSX |         90 |          8 |         18 |        116 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\TransferItem.module.css          | CSS            |         56 |          0 |          8 |         64 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\TransferList.jsx                 | JavaScript JSX |         98 |          0 |         13 |        111 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\TransferList.module.css          | CSS            |         29 |          0 |          6 |         35 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\TransferModal.jsx                | JavaScript JSX |        158 |          6 |         11 |        175 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\TransferModal.module.css         | CSS            |         39 |          0 |          7 |         46 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\landing\Benefits.jsx             | JavaScript JSX |          0 |          0 |          1 |          1 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\landing\CTA.jsx                  | JavaScript JSX |          0 |          0 |          1 |          1 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\landing\Features.jsx             | JavaScript JSX |          0 |          0 |          1 |          1 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\landing\Footer.jsx               | JavaScript JSX |          0 |          0 |          1 |          1 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\landing\Hero.jsx                 | JavaScript JSX |         19 |          0 |          4 |         23 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\landing\Hero.module.css          | CSS            |         63 |          0 |          6 |         69 |
+| c:\Users\alafd\Desktop\React\bankr\src\components\landing\howitworks.jsx           | JavaScript JSX |          0 |          0 |          1 |          1 |
+| c:\Users\alafd\Desktop\React\bankr\src\contexts\BalanceContext.jsx                 | JavaScript JSX |         32 |          0 |          7 |         39 |
+| c:\Users\alafd\Desktop\React\bankr\src\contexts\ExpensesContext.jsx                | JavaScript JSX |         38 |         56 |          9 |        103 |
+| c:\Users\alafd\Desktop\React\bankr\src\contexts\FakeAuthContext.jsx                | JavaScript JSX |         68 |          0 |         14 |         82 |
+| c:\Users\alafd\Desktop\React\bankr\src\contexts\LogsContext.jsx                    | JavaScript JSX |         22 |          0 |          9 |         31 |
+| c:\Users\alafd\Desktop\React\bankr\src\contexts\SortTypeContext.jsx                | JavaScript JSX |         17 |          0 |          6 |         23 |
+| c:\Users\alafd\Desktop\React\bankr\src\contexts\SpacesContext.jsx                  | JavaScript JSX |         41 |          0 |          8 |         49 |
+| c:\Users\alafd\Desktop\React\bankr\src\contexts\TransferContext.jsx                | JavaScript JSX |         64 |          3 |         11 |         78 |
+| c:\Users\alafd\Desktop\React\bankr\src\index.css                                   | CSS            |         18 |          0 |          4 |         22 |
+| c:\Users\alafd\Desktop\React\bankr\src\main.jsx                                    | JavaScript JSX |          9 |          0 |          2 |         11 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\CreateTransaction.jsx                 | JavaScript JSX |         37 |          0 |          6 |         43 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\CreateTransaction.module.css          | CSS            |         13 |          0 |          2 |         15 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\ExpensePage.jsx                       | JavaScript JSX |         37 |          0 |          7 |         44 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\ExpensePage.module.css                | CSS            |         11 |          0 |          2 |         13 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\Expenses.jsx                          | JavaScript JSX |         69 |          0 |          7 |         76 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\Expenses.module.css                   | CSS            |         11 |          0 |          2 |         13 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\Graph.jsx                             | JavaScript JSX |         62 |          0 |          6 |         68 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\Graph.module.css                      | CSS            |         10 |          0 |          2 |         12 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\Homepage.jsx                          | JavaScript JSX |         92 |          0 |          9 |        101 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\Homepage.module.css                   | CSS            |         19 |          9 |          5 |         33 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\Landing.jsx                           | JavaScript JSX |          9 |          0 |          3 |         12 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\Login.jsx                             | JavaScript JSX |         15 |          0 |          4 |         19 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\Logs.jsx                              | JavaScript JSX |         58 |          0 |          8 |         66 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\Logs.module.css                       | CSS            |          0 |          0 |          1 |          1 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\NewSpace.jsx                          | JavaScript JSX |         66 |          0 |          7 |         73 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\NewSpace.module.css                   | CSS            |          6 |          0 |          1 |          7 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\ProtectedRoutes.jsx                   | JavaScript JSX |         14 |          0 |          5 |         19 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\SpacePage.jsx                         | JavaScript JSX |         78 |          0 |          8 |         86 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\SpacePage.module.css                  | CSS            |         13 |          0 |          2 |         15 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\Spaces.jsx                            | JavaScript JSX |         63 |          0 |          7 |         70 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\Spaces.module.css                     | CSS            |         18 |          0 |          3 |         21 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\Transfer.jsx                          | JavaScript JSX |         68 |          0 |          6 |         74 |
+| c:\Users\alafd\Desktop\React\bankr\src\pages\Transfer.module.css                   | CSS            |          9 |          0 |          2 |         11 |
+| c:\Users\alafd\Desktop\React\bankr\vite.config.js                                  | JavaScript     |          5 |          1 |          2 |          8 |
+| Total                                                                              |                |     13,210 |        121 |        584 |     13,915 |
++------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

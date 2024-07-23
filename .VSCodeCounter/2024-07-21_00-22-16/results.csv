@@ -1,0 +1,108 @@
+"filename", "language", "JavaScript", "JSON", "CSS", "Markdown", "HTML", "JavaScript JSX", "XML", "comment", "blank", "total"
+"c:\Users\alafd\Desktop\React\bankr\.eslintrc.cjs", "JavaScript", 23, 0, 0, 0, 0, 0, 0, 0, 1, 24
+"c:\Users\alafd\Desktop\React\bankr\README.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 4, 9
+"c:\Users\alafd\Desktop\React\bankr\index.html", "HTML", 0, 0, 0, 0, 13, 0, 0, 0, 1, 14
+"c:\Users\alafd\Desktop\React\bankr\package-lock.json", "JSON", 0, 9158, 0, 0, 0, 0, 0, 0, 1, 9159
+"c:\Users\alafd\Desktop\React\bankr\package.json", "JSON", 0, 41, 0, 0, 0, 0, 0, 0, 1, 42
+"c:\Users\alafd\Desktop\React\bankr\public\vite.svg", "XML", 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+"c:\Users\alafd\Desktop\React\bankr\src\App.css", "CSS", 0, 0, 11, 0, 0, 0, 0, 0, 3, 14
+"c:\Users\alafd\Desktop\React\bankr\src\App.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 0, 5, 22
+"c:\Users\alafd\Desktop\React\bankr\src\assets\react.svg", "XML", 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+"c:\Users\alafd\Desktop\React\bankr\src\components\AddSpaceItem.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 20, 0, 0, 4, 24
+"c:\Users\alafd\Desktop\React\bankr\src\components\AddSpaceItem.module.css", "CSS", 0, 0, 26, 0, 0, 0, 0, 0, 4, 30
+"c:\Users\alafd\Desktop\React\bankr\src\components\AnimatedRoutes.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 110, 0, 0, 5, 115
+"c:\Users\alafd\Desktop\React\bankr\src\components\BackButton.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 30, 0, 0, 6, 36
+"c:\Users\alafd\Desktop\React\bankr\src\components\BackButton.module.css", "CSS", 0, 0, 9, 0, 0, 0, 0, 0, 1, 10
+"c:\Users\alafd\Desktop\React\bankr\src\components\Balance.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 9, 0, 0, 5, 14
+"c:\Users\alafd\Desktop\React\bankr\src\components\Balance.module.css", "CSS", 0, 0, 10, 0, 0, 0, 0, 0, 1, 11
+"c:\Users\alafd\Desktop\React\bankr\src\components\BeneficiaryModal.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 100, 0, 0, 7, 107
+"c:\Users\alafd\Desktop\React\bankr\src\components\BeneficiaryModal.module.css", "CSS", 0, 0, 35, 0, 0, 0, 0, 0, 7, 42
+"c:\Users\alafd\Desktop\React\bankr\src\components\CreateTransactionForm.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 81, 0, 0, 7, 88
+"c:\Users\alafd\Desktop\React\bankr\src\components\CreateTransactionForm.module.css", "CSS", 0, 0, 22, 0, 0, 0, 0, 0, 5, 27
+"c:\Users\alafd\Desktop\React\bankr\src\components\DeleteModal.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 77, 0, 0, 5, 82
+"c:\Users\alafd\Desktop\React\bankr\src\components\DeleteModal.module.css", "CSS", 0, 0, 29, 0, 0, 0, 0, 0, 5, 34
+"c:\Users\alafd\Desktop\React\bankr\src\components\ExpenseItem.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 47, 0, 0, 7, 54
+"c:\Users\alafd\Desktop\React\bankr\src\components\ExpenseItem.module.css", "CSS", 0, 0, 54, 0, 0, 0, 0, 0, 10, 64
+"c:\Users\alafd\Desktop\React\bankr\src\components\ExpensesGraph-V2.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 112, 0, 4, 16, 132
+"c:\Users\alafd\Desktop\React\bankr\src\components\ExpensesGraph.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 131, 0, 4, 15, 150
+"c:\Users\alafd\Desktop\React\bankr\src\components\ExpensesGraph.module.css", "CSS", 0, 0, 12, 0, 0, 0, 0, 0, 2, 14
+"c:\Users\alafd\Desktop\React\bankr\src\components\ExpensesList.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 58, 0, 0, 7, 65
+"c:\Users\alafd\Desktop\React\bankr\src\components\ExpensesList.module.css", "CSS", 0, 0, 18, 0, 0, 0, 0, 0, 4, 22
+"c:\Users\alafd\Desktop\React\bankr\src\components\Footer.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 15, 0, 0, 3, 18
+"c:\Users\alafd\Desktop\React\bankr\src\components\Footer.module.css", "CSS", 0, 0, 35, 0, 0, 0, 0, 0, 6, 41
+"c:\Users\alafd\Desktop\React\bankr\src\components\HomepageExpenses.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 32, 0, 0, 6, 38
+"c:\Users\alafd\Desktop\React\bankr\src\components\HomepageGraph.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 19, 0, 0, 4, 23
+"c:\Users\alafd\Desktop\React\bankr\src\components\HomepageSection.module.css", "CSS", 0, 0, 56, 0, 0, 0, 0, 0, 10, 66
+"c:\Users\alafd\Desktop\React\bankr\src\components\HomepageSpaces.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 48, 0, 4, 9, 61
+"c:\Users\alafd\Desktop\React\bankr\src\components\HomepageTransfer.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 39, 0, 0, 6, 45
+"c:\Users\alafd\Desktop\React\bankr\src\components\LoginForm.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 53, 0, 24, 9, 86
+"c:\Users\alafd\Desktop\React\bankr\src\components\LoginForm.module.css", "CSS", 0, 0, 19, 0, 0, 0, 0, 0, 3, 22
+"c:\Users\alafd\Desktop\React\bankr\src\components\LogoutModal.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 40, 0, 0, 5, 45
+"c:\Users\alafd\Desktop\React\bankr\src\components\LogoutModal.module.css", "CSS", 0, 0, 35, 0, 0, 0, 0, 0, 4, 39
+"c:\Users\alafd\Desktop\React\bankr\src\components\LogsList.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 50, 0, 0, 6, 56
+"c:\Users\alafd\Desktop\React\bankr\src\components\LogsList.module.css", "CSS", 0, 0, 14, 0, 0, 0, 0, 0, 2, 16
+"c:\Users\alafd\Desktop\React\bankr\src\components\ManageExpenseForm.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 92, 0, 0, 9, 101
+"c:\Users\alafd\Desktop\React\bankr\src\components\ManageExpenseForm.module.css", "CSS", 0, 0, 63, 0, 0, 0, 0, 0, 13, 76
+"c:\Users\alafd\Desktop\React\bankr\src\components\ManageSpaceForm.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 84, 0, 0, 11, 95
+"c:\Users\alafd\Desktop\React\bankr\src\components\ManageSpaceForm.module.css", "CSS", 0, 0, 30, 0, 0, 0, 0, 0, 5, 35
+"c:\Users\alafd\Desktop\React\bankr\src\components\MobileNav.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 88, 0, 0, 4, 92
+"c:\Users\alafd\Desktop\React\bankr\src\components\MobileNav.module.css", "CSS", 0, 0, 66, 0, 0, 0, 0, 0, 16, 82
+"c:\Users\alafd\Desktop\React\bankr\src\components\Sidebar.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 74, 0, 0, 5, 79
+"c:\Users\alafd\Desktop\React\bankr\src\components\Sidebar.module.css", "CSS", 0, 0, 37, 0, 0, 0, 0, 0, 7, 44
+"c:\Users\alafd\Desktop\React\bankr\src\components\SortSelect.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 19, 0, 0, 5, 24
+"c:\Users\alafd\Desktop\React\bankr\src\components\SortSelect.module.css", "CSS", 0, 0, 15, 0, 0, 0, 0, 0, 2, 17
+"c:\Users\alafd\Desktop\React\bankr\src\components\SpaceExpenses.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 89, 0, 2, 6, 97
+"c:\Users\alafd\Desktop\React\bankr\src\components\SpaceExpenses.module.css", "CSS", 0, 0, 5, 0, 0, 0, 0, 0, 2, 7
+"c:\Users\alafd\Desktop\React\bankr\src\components\SpaceForm.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 61, 0, 0, 8, 69
+"c:\Users\alafd\Desktop\React\bankr\src\components\SpaceForm.module.css", "CSS", 0, 0, 16, 0, 0, 0, 0, 0, 3, 19
+"c:\Users\alafd\Desktop\React\bankr\src\components\SpaceItem.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 32, 0, 0, 4, 36
+"c:\Users\alafd\Desktop\React\bankr\src\components\SpaceItem.module.css", "CSS", 0, 0, 59, 0, 0, 0, 0, 0, 11, 70
+"c:\Users\alafd\Desktop\React\bankr\src\components\SpacesList.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 21, 0, 0, 5, 26
+"c:\Users\alafd\Desktop\React\bankr\src\components\SpacesList.module.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\alafd\Desktop\React\bankr\src\components\TransferItem.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 90, 0, 8, 18, 116
+"c:\Users\alafd\Desktop\React\bankr\src\components\TransferItem.module.css", "CSS", 0, 0, 56, 0, 0, 0, 0, 0, 8, 64
+"c:\Users\alafd\Desktop\React\bankr\src\components\TransferList.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 98, 0, 0, 13, 111
+"c:\Users\alafd\Desktop\React\bankr\src\components\TransferList.module.css", "CSS", 0, 0, 29, 0, 0, 0, 0, 0, 6, 35
+"c:\Users\alafd\Desktop\React\bankr\src\components\TransferModal.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 158, 0, 6, 11, 175
+"c:\Users\alafd\Desktop\React\bankr\src\components\TransferModal.module.css", "CSS", 0, 0, 39, 0, 0, 0, 0, 0, 7, 46
+"c:\Users\alafd\Desktop\React\bankr\src\components\landing\Benefits.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\alafd\Desktop\React\bankr\src\components\landing\CTA.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\alafd\Desktop\React\bankr\src\components\landing\Features.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\alafd\Desktop\React\bankr\src\components\landing\Footer.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\alafd\Desktop\React\bankr\src\components\landing\Hero.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 19, 0, 0, 4, 23
+"c:\Users\alafd\Desktop\React\bankr\src\components\landing\Hero.module.css", "CSS", 0, 0, 63, 0, 0, 0, 0, 0, 6, 69
+"c:\Users\alafd\Desktop\React\bankr\src\components\landing\howitworks.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\alafd\Desktop\React\bankr\src\contexts\BalanceContext.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 32, 0, 0, 7, 39
+"c:\Users\alafd\Desktop\React\bankr\src\contexts\ExpensesContext.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 38, 0, 56, 9, 103
+"c:\Users\alafd\Desktop\React\bankr\src\contexts\FakeAuthContext.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 68, 0, 0, 14, 82
+"c:\Users\alafd\Desktop\React\bankr\src\contexts\LogsContext.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 22, 0, 0, 9, 31
+"c:\Users\alafd\Desktop\React\bankr\src\contexts\SortTypeContext.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 0, 6, 23
+"c:\Users\alafd\Desktop\React\bankr\src\contexts\SpacesContext.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 41, 0, 0, 8, 49
+"c:\Users\alafd\Desktop\React\bankr\src\contexts\TransferContext.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 64, 0, 3, 11, 78
+"c:\Users\alafd\Desktop\React\bankr\src\index.css", "CSS", 0, 0, 18, 0, 0, 0, 0, 0, 4, 22
+"c:\Users\alafd\Desktop\React\bankr\src\main.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 9, 0, 0, 2, 11
+"c:\Users\alafd\Desktop\React\bankr\src\pages\CreateTransaction.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 37, 0, 0, 6, 43
+"c:\Users\alafd\Desktop\React\bankr\src\pages\CreateTransaction.module.css", "CSS", 0, 0, 13, 0, 0, 0, 0, 0, 2, 15
+"c:\Users\alafd\Desktop\React\bankr\src\pages\ExpensePage.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 37, 0, 0, 7, 44
+"c:\Users\alafd\Desktop\React\bankr\src\pages\ExpensePage.module.css", "CSS", 0, 0, 11, 0, 0, 0, 0, 0, 2, 13
+"c:\Users\alafd\Desktop\React\bankr\src\pages\Expenses.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 69, 0, 0, 7, 76
+"c:\Users\alafd\Desktop\React\bankr\src\pages\Expenses.module.css", "CSS", 0, 0, 11, 0, 0, 0, 0, 0, 2, 13
+"c:\Users\alafd\Desktop\React\bankr\src\pages\Graph.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 62, 0, 0, 6, 68
+"c:\Users\alafd\Desktop\React\bankr\src\pages\Graph.module.css", "CSS", 0, 0, 10, 0, 0, 0, 0, 0, 2, 12
+"c:\Users\alafd\Desktop\React\bankr\src\pages\Homepage.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 92, 0, 0, 9, 101
+"c:\Users\alafd\Desktop\React\bankr\src\pages\Homepage.module.css", "CSS", 0, 0, 19, 0, 0, 0, 0, 9, 5, 33
+"c:\Users\alafd\Desktop\React\bankr\src\pages\Landing.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 9, 0, 0, 3, 12
+"c:\Users\alafd\Desktop\React\bankr\src\pages\Login.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 15, 0, 0, 4, 19
+"c:\Users\alafd\Desktop\React\bankr\src\pages\Logs.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 58, 0, 0, 8, 66
+"c:\Users\alafd\Desktop\React\bankr\src\pages\Logs.module.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\alafd\Desktop\React\bankr\src\pages\NewSpace.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 66, 0, 0, 7, 73
+"c:\Users\alafd\Desktop\React\bankr\src\pages\NewSpace.module.css", "CSS", 0, 0, 6, 0, 0, 0, 0, 0, 1, 7
+"c:\Users\alafd\Desktop\React\bankr\src\pages\ProtectedRoutes.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 14, 0, 0, 5, 19
+"c:\Users\alafd\Desktop\React\bankr\src\pages\SpacePage.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 78, 0, 0, 8, 86
+"c:\Users\alafd\Desktop\React\bankr\src\pages\SpacePage.module.css", "CSS", 0, 0, 13, 0, 0, 0, 0, 0, 2, 15
+"c:\Users\alafd\Desktop\React\bankr\src\pages\Spaces.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 63, 0, 0, 7, 70
+"c:\Users\alafd\Desktop\React\bankr\src\pages\Spaces.module.css", "CSS", 0, 0, 18, 0, 0, 0, 0, 0, 3, 21
+"c:\Users\alafd\Desktop\React\bankr\src\pages\Transfer.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 68, 0, 0, 6, 74
+"c:\Users\alafd\Desktop\React\bankr\src\pages\Transfer.module.css", "CSS", 0, 0, 9, 0, 0, 0, 0, 0, 2, 11
+"c:\Users\alafd\Desktop\React\bankr\vite.config.js", "JavaScript", 5, 0, 0, 0, 0, 0, 0, 1, 2, 8
+"Total", "-", 28, 9199, 991, 5, 13, 2972, 2, 121, 584, 13915

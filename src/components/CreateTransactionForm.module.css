@@ -1,0 +1,26 @@
+.newExpenseForm {
+  border: 1px solid #4f4f4f;
+  border-radius: 5px;
+  padding: 20px 40px;
+}
+
+.newExpenseForm label {
+  font-size: 1.1rem;
+}
+
+.newExpenseForm input,
+.newExpenseForm select {
+  padding: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.newExpenseForm select {
+  cursor: pointer;
+}
+
+.newExpenseForm input::placeholder {
+  font-style: italic;
+  opacity: 0.5;
+  color: rgb(100, 100, 100);
+}

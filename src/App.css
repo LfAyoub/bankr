@@ -1,0 +1,13 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #242424;
+  overflow-x: hidden;
+}
+
+a:not(:first-child).active {
+  text-decoration: underline;
+  color: rgb(0, 106, 255) !important;
+}

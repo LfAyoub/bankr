@@ -1,0 +1,63 @@
+.transferItem {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: #2f2f2f;
+  padding: 14px 0;
+}
+
+.transferItem:not(:first-child) {
+  border-top: 2px solid #4f4f4f;
+}
+
+.transferItem:hover {
+  background-color: #3f3f3f;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.transferIcon {
+  width: 50%;
+}
+
+.icon {
+  width: 62px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #4f4f4f;
+  border-radius: 100%;
+  font-size: 1.7rem;
+  margin: 0 2rem;
+}
+
+.transferName {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.deleteButton {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #4f4f4f;
+  border-radius: 5px;
+  background-color: rgb(179, 29, 29);
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  right: 5px;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.deleteButton:hover {
+  background-color: rgb(255, 0, 0);
+  transition: background-color 0.5s;
+}

@@ -1,0 +1,63 @@
+.expenseItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: #2f2f2f;
+  border-top: 2px solid #4f4f4f;
+  color: white;
+}
+
+.expenseItem:hover {
+  background-color: #3f3f3f;
+  color: white;
+  transition: background-color 0.5s;
+}
+
+.expenseItem__date {
+  width: 100px;
+  height: 100px;
+  border-right: 2px solid #4f4f4f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.day {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.month {
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.expenseItem__description {
+  text-align: left;
+  width: 60%;
+  margin: 0 1rem;
+  font-size: 24px;
+}
+
+.expenseItem__description p {
+  text-decoration: none;
+}
+
+.expenseItem__amount {
+  font-weight: bold;
+  font-size: 26px;
+  min-width: 130px;
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.__income {
+  color: rgb(6, 196, 6);
+}
+
+.__expense {
+  color: rgb(255, 74, 74);
+}

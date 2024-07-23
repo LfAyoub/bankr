@@ -1,0 +1,29 @@
+.spaceItem {
+  background-color: #949494;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+  color: white;
+}
+
+.spaceItem:hover {
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.46);
+  text-shadow: -2px -2px 4px #000, 2px -2px 4px #000, -2px 2px 4px #000,
+    2px 2px 4px #000;
+  transition: all 0.4s ease;
+}
+
+.spaceItem h2 {
+  font-size: 38px;
+}
+
+.icon {
+  font-size: 48px;
+  color: white;
+}

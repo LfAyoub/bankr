@@ -1,0 +1,11 @@
+.graph {
+  margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .graph {
+    margin-top: 100px;
+    width: 75%;
+    margin-left: 20%;
+  }
+}

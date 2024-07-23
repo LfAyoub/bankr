@@ -1,0 +1,46 @@
+.sidebar {
+  width: 15%;
+  height: 100vh;
+  background-color: #363636;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar .logo {
+  margin-bottom: 200px;
+}
+
+.sidebar img {
+  height: 65px;
+  margin: 20px 0;
+}
+
+.customNavLink:last-child:hover {
+  color: red !important;
+}
+
+.navDropDown a {
+  color: white !important;
+}
+
+.navDropDown a:hover {
+  color: #0a58ca !important;
+}
+
+.dropDownItem {
+  color: white !important;
+  background-color: #2f2f2f !important;
+  font-size: 1.2rem;
+}
+
+.dropDownItem:hover {
+  background-color: #2f2f2f !important;
+  text-decoration: underline;
+}

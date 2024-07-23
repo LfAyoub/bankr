@@ -1,0 +1,41 @@
+.beneficiaryModal {
+  cursor: default;
+}
+
+.modalHeader {
+  padding: 20px !important;
+  font-size: 2rem;
+  text-align: center;
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+.modalBody {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgb(31, 31, 31);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formGroup {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.formGroup label {
+  margin-right: 10px;
+}
+
+.modalFooter {
+  background-color: rgb(31, 31, 31);
+}
+
+.beneficiaryName {
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}

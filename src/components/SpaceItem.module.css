@@ -1,0 +1,69 @@
+.spaceItem {
+  height: 220px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: white;
+  background-color: #4f4f4f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.spaceText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+a {
+  width: fit-content;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+.spaceItem:hover {
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.46);
+  transition: all 0.6s ease;
+}
+
+.spaceItem:hover h2 {
+  font-size: 40px;
+  transition: all 0.3s ease;
+}
+
+.spaceItem h2 {
+  font-size: 36px;
+  transition: all 0.3s ease;
+}
+
+.spaceItem p {
+  font-size: 22px;
+}
+
+.spaceItem h2,
+.spaceItem p {
+  text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000,
+    1px 1px 2px #000;
+}
+
+.editIcon {
+  color: white;
+  font-size: 1.4rem;
+  margin-top: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: flex-end;
+  height: 30px;
+}
+
+.editIcon svg {
+  cursor: pointer;
+  font-size: 1.4rem;
+}

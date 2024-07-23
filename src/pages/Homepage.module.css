@@ -1,0 +1,32 @@
+.homepageMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  cursor: default;
+}
+
+@media screen and (min-width: 1000px) {
+  .homepageMain {
+    margin-left: 15%;
+  }
+}
+
+.homepageMain h1 {
+  text-decoration: none;
+}
+
+.homepageMain h3 {
+  text-decoration: none;
+}
+
+/* .homepageSections {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+} */

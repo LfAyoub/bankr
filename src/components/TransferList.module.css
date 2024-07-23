@@ -1,0 +1,42 @@
+.transferList {
+  margin: 1rem auto;
+  border: 3px solid #4f4f4f;
+  border-radius: 5px;
+}
+
+.transferItem {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.transferItem:hover {
+  background-color: #3f3f3f;
+  transition: background-color 0.5s;
+}
+
+.transferItem:not(:first-child) {
+  border-top: 2px solid #4f4f4f;
+}
+
+.addIcon {
+  font-size: 2rem;
+  color: white;
+}
+
+.expensesHeader {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.noBeneficiary {
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #4f4f4f;
+  cursor: default;
+}

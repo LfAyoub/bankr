@@ -1,0 +1,33 @@
+.deleteModal {
+  cursor: default;
+}
+
+.modalHeader {
+  padding: 20px !important;
+  font-size: 2rem;
+  text-align: center;
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+.modalBody {
+  padding: 30px 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgb(31, 31, 31);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modalFooter {
+  background-color: rgb(31, 31, 31);
+}
+
+.beneficiaryName {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}

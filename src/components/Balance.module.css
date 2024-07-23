@@ -1,0 +1,10 @@
+.balance {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: #4f4f4f;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  cursor: default;
+}

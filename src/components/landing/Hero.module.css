@@ -1,0 +1,68 @@
+.heroBackground {
+  background-image: url("/public/hero.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(5px);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* Changer de absolute à relative pour le parent */
+  width: 100%;
+}
+
+.heroBackground::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 1; /* Positionne la couche de couleur au-dessus du background flouté */
+  background: linear-gradient(
+    45deg,
+    rgba(208, 208, 208, 0.3),
+    rgba(57, 57, 57, 0.1),
+    rgba(31, 31, 31, 0.4)
+  );
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+}
+
+.heroSection {
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 37%;
+  width: 100%;
+  margin: 0 auto;
+  text-shadow: 2px 2px 4px #000000;
+  z-index: 2; /* Positionne le contenu au-dessus des autres couches */
+}
+
+.heroSection h1 {
+  font-size: 7rem;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.heroSection p {
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

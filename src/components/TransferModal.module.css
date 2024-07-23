@@ -1,0 +1,45 @@
+.transferModal {
+  padding: 40px;
+  color: white;
+  cursor: default;
+}
+
+.modalHeader {
+  padding: 20px !important;
+  font-size: 2rem;
+  text-align: center;
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+.modalBody {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgb(31, 31, 31);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.transferName {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.modalBody label {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.buttonsContainer {
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.modalFooter {
+  background-color: rgb(31, 31, 31);
+}

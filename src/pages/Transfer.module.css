@@ -1,0 +1,10 @@
+.transferMain {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .transferMain {
+    margin-top: 100px;
+    margin-left: 15%;
+  }
+}

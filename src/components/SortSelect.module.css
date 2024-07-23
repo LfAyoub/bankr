@@ -1,0 +1,16 @@
+.sortSelect {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #4f4f4f;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+option {
+  background-color: #fff;
+  color: #333;
+  font-size: 1rem;
+}

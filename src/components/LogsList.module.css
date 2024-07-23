@@ -1,0 +1,24 @@
+.logsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 40px;
+  cursor: default;
+}
+
+@media (min-width: 768px) {
+  .logsList {
+    margin-top: 100px;
+    width: 75%;
+    margin-left: 20%;
+  }
+}
+
+.logsList th {
+  cursor: pointer;
+}
+
+.logsList th:hover {
+  color: #0a58ca;
+  text-decoration: underline;
+}

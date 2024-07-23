@@ -1,0 +1,14 @@
+.spacePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .spacePage {
+    margin-top: 100px;
+    width: 75%;
+    margin-left: 20%;
+  }
+}

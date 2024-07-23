@@ -1,0 +1,21 @@
+.expensesList {
+  border: 3px solid #4f4f4f;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.expensesHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}

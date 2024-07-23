@@ -1,0 +1,18 @@
+.spaceForm {
+  border: 1px solid #4f4f4f;
+  border-radius: 5px;
+  padding: 20px 40px;
+}
+
+.spaceForm input,
+.spaceForm select {
+  padding: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.spaceForm input::placeholder {
+  font-style: italic;
+  opacity: 0.5;
+  color: rgb(100, 100, 100);
+}

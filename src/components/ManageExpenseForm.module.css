@@ -1,0 +1,75 @@
+.manageExpenseForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  margin-top: 20px;
+  border: 1px solid #4f4f4f;
+  padding: 10px;
+}
+
+.manageExpenseForm .formField {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.manageExpenseForm label {
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+.manageExpenseForm input {
+  cursor: default;
+}
+
+.manageExpenseForm input:hover {
+  background-color: #191919;
+}
+
+.manageExpenseForm input:focus {
+  background-color: #191919;
+}
+
+.manageExpenseForm select {
+  cursor: pointer;
+}
+
+.manageExpenseForm select:hover {
+  background-color: #191919;
+}
+
+.manageExpenseForm select:focus {
+  background-color: #191919;
+}
+
+.manageExpenseForm select option {
+  background-color: #191919;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.manageExpenseForm input,
+.manageExpenseForm select {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+.applyButton {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.3rem;
+  background-color: #4f4f4f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.applyButton:hover {
+  background-color: #191919;
+  box-shadow: 0 0 5px #4f4f4f;
+}
