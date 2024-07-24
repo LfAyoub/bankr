@@ -12,7 +12,7 @@ Le projet est accessible à l'URL suivante :
 
 ## Utilisation
 
-En entrant sur l'application, l'utilisateur est invité à entrer plusieurs dépenses afin que les différentes fonctionnalités puissent s'activer correctement. Une fois cela fait, les quatre fonctionnalités marchent correctement et l'utilisateur peut utiliser l'application au quotidien. Le but est d'y entrer des dépenses ou des revenus afin de garder un œil sur l'évolution de son budget. L'application est conçue pour une utilisation quotidienne, avec une interface simplifiée permettant de créer une nouvelle transaction en quelques clics seulement.
+En entrant sur l'application, l'utilisateur est invité à entrer plusieurs dépenses afin que les différentes fonctionnalités puissent s'activer correctement,notamment la partie Graph. Quelques dépenses sont enregistrées d'office, dans un but démonstratif. Une fois cela fait, les quatre fonctionnalités marchent correctement et l'utilisateur peut utiliser l'application au quotidien. Le but est d'y entrer des dépenses ou des revenus afin de garder un œil sur l'évolution de son budget. L'application est conçue pour une utilisation quotidienne, avec une interface simplifiée permettant de créer une nouvelle transaction en quelques clics seulement.
 
 ## Contributeur
 
