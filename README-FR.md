@@ -8,7 +8,7 @@ BankR est une application qui permet à l'utilisateur de suivre et gérer ses tr
 
 ## URL
 
-Le projet est accessible à l'URL suivante : 
+Le projet est accessible à l'URL suivante : [https://bankr.pages.dev/app](https://bankr.pages.dev/app)
 
 ## Utilisation
 
