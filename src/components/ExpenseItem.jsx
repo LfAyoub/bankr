@@ -1,5 +1,4 @@
 import { useExpenses } from "../contexts/ExpensesContext";
-import { Link } from "react-router-dom";
 
 import styles from "./ExpenseItem.module.css";
 
@@ -31,16 +30,22 @@ function ExpenseItem({ expense }) {
       className={styles.expenseItem}
       onClick={() => setSelectedExpense(expense)}
     >
-      <div className={styles.expenseItem__date}>
+      <div className={styles.expenseItemDate}>
         <div className={styles.day}>{formatDate(expense.date).day}</div>
         <div className={styles.month}>{formatDate(expense.date).month}</div>
       </div>
-      <div className={styles.expenseItem__description}>
-        <p>{expense.description}</p>
+      <div className={styles.expenseItemDescription}>
+        <p className={styles.description}>
+          {expense.description}
+          {expense.note ? (
+            <span className={styles.expenseNote}> - {expense.note}</span>
+          ) : null}
+        </p>
+        <p className={styles.space}>{expense.space}</p>
       </div>
       <div
-        className={`${styles.expenseItem__amount} ${
-          expense.type === "expense" ? styles["__expense"] : styles["__income"]
+        className={`${styles.expenseItemAmount} ${
+          expense.type === "expense" ? styles["expense"] : styles["income"]
         }`}
       >
         {expense.type === "expense" ? "-" : "+"}

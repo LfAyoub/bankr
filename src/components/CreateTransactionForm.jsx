@@ -1,15 +1,16 @@
+import styles from "./CreateTransactionForm.module.css";
 import { useState } from "react";
-import { useNavigate } from "react-router";
 import { Container, Col, Button, Form } from "react-bootstrap";
+import { useNavigate } from "react-router";
 import { useExpenses } from "../contexts/ExpensesContext";
 import { useTransfer } from "../contexts/TransferContext";
 import { useLogs } from "../contexts/LogsContext";
-import styles from "./CreateTransactionForm.module.css";
 
 function CreateTransactionForm() {
   const [transactionType, setTransactionType] = useState("expense");
   const [description, setDescription] = useState("");
   const [amount, setAmount] = useState(0);
+  const [note, setNote] = useState("");
 
   const { setExpenses } = useExpenses();
   const { formattedDate } = useTransfer();
@@ -26,6 +27,7 @@ function CreateTransactionForm() {
       date: formattedDate,
       description,
       space: "",
+      note,
     };
     setExpenses((prevExpenses) => [...prevExpenses, newExpense]);
     const newLog = {
@@ -39,8 +41,8 @@ function CreateTransactionForm() {
 
   return (
     <Container>
-      <Col lg={4} className="mx-auto">
-        <Form class={styles.newExpenseForm}>
+      <Col lg={5} className="mx-auto">
+        <Form className={styles.newExpenseForm}>
           <Form.Group>
             <Form.Label>Transaction type</Form.Label>
             <Form.Control
@@ -68,6 +70,14 @@ function CreateTransactionForm() {
               min={0}
               value={amount}
               onChange={(e) => setAmount(e.target.value)}
+            />
+          </Form.Group>
+          <Form.Group>
+            <Form.Label>Note</Form.Label>
+            <Form.Control
+              type="text"
+              value={note}
+              onChange={(e) => setNote(e.target.value)}
             />
           </Form.Group>
           <Button

@@ -38,7 +38,7 @@ function Logs() {
   };
 
   return (
-    <Container>
+    <>
       <Col className="d-none d-md-block">
         <Sidebar />
       </Col>
@@ -52,13 +52,14 @@ function Logs() {
         initial="initial"
         animate="animate"
         exit="exit"
-        className={styles.graph}
+        className={styles.logs}
       >
+        <h1>Account logs</h1>
         <LogsProvider>
           <LogsList />
         </LogsProvider>
       </motion.div>
-    </Container>
+    </>
   );
 }
 

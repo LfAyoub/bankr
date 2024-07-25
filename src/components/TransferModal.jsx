@@ -88,6 +88,7 @@ function TransferModal({ show, handleClose }) {
                 type="number"
                 onChange={(e) => setAmount(e.target.value)}
                 value={amount === 0 ? "" : amount}
+                min={1}
               />
               <div className={styles.instantTransfer}>
                 <label htmlFor="instant">Instant transfer (+2.00€)</label>

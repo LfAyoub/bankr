@@ -1,0 +1,10 @@
+.logs {
+  margin: 50px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .logs {
+    width: 75%;
+    margin-left: 20%;
+  }
+}

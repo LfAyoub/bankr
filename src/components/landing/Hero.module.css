@@ -1,5 +1,5 @@
 .heroBackground {
-  background-image: url("/public/hero.jpg");
+  background-image: url("/hero.jpg");
   filter: blur(8px);
   -webkit-filter: blur(5px);
   height: 100vh;

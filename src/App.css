@@ -9,5 +9,5 @@ body {
 
 a:not(:first-child).active {
   text-decoration: underline;
-  color: rgb(0, 106, 255) !important;
+  color: #0a58ca !important;
 }

@@ -56,7 +56,7 @@ function TransferList() {
     <>
       <Container>
         <Row>
-          <Col xl={3} lg={4} md={6} xs={9} className="mx-auto">
+          <Col xl={4} lg={4} md={6} xs={9} className="mx-auto">
             <Balance />
           </Col>
         </Row>

@@ -6,11 +6,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   text-align: center;
   position: fixed;
   top: 0;
   left: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .sidebar {
+    width: 20%;
+  }
 }
 
 .sidebar .logo {
@@ -20,6 +26,14 @@
 .sidebar img {
   height: 65px;
   margin: 20px 0;
+}
+
+.customNavLink {
+  color: white !important;
+}
+
+.customNavLink:hover {
+  color: #0a58ca !important;
 }
 
 .customNavLink:last-child:hover {

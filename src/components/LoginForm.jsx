@@ -6,11 +6,11 @@ import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import styles from "./LoginForm.module.css";
 
 function LoginForm() {
-  const [email, setEmail] = useState("jack@mail.com");
+  const [email, setEmail] = useState("tony@stark.com");
   const [password, setPassword] = useState("azerty");
 
   const navigate = useNavigate();
-  const { login, isAuthenticated } = useAuth();
+  const { login, isAuthenticated, showErrorMessage } = useAuth();
 
   useEffect(() => {
     if (isAuthenticated) {
@@ -49,6 +49,11 @@ function LoginForm() {
               <Button type="submit" onClick={handleSubmit} className="my-3">
                 Login
               </Button>
+              {showErrorMessage ? (
+                <p className={styles.errorMessage}>
+                  Incorrect email or password
+                </p>
+              ) : null}
             </Col>
           </Row>
         </Form>

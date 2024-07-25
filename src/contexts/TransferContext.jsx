@@ -13,12 +13,8 @@ function TransferProvider({ children }) {
       lastName: "Doe",
     },
     {
-      firstName: "Jane",
-      lastName: "Doe",
-    },
-    {
-      firstName: "John",
-      lastName: "Smith",
+      firstName: "Ned",
+      lastName: "Stark",
     },
   ];
   const [selectedBeneficiary, setSelectedBeneficiary] = useState();
@@ -32,7 +28,7 @@ function TransferProvider({ children }) {
       : initialBeneficiaries;
   });
 
-  // Obtenez la date d'aujourd'hui
+  // Date d'aujourd'hui
   const today = new Date();
 
   // Récupérez l'année, le mois et le jour

@@ -62,7 +62,7 @@ function Homepage() {
         exit="exit"
         className={styles.homepageMain}
       >
-        {user && <h1>Welcome back, {user.name}.</h1>}
+        {user && <h1>Welcome back.</h1>}
         <div className={styles.homepageSections}>
           <Container>
             <Row>

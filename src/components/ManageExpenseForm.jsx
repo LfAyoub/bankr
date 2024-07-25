@@ -1,14 +1,19 @@
+import { Col, Row, Container } from "react-bootstrap";
 import { useNavigate } from "react-router";
 import { useEffect, useState } from "react";
+
 import { useExpenses } from "../contexts/ExpensesContext";
 import { useSpaces } from "../contexts/SpacesContext";
-import { Col, Row, Container } from "react-bootstrap";
+import { useLogs } from "../contexts/LogsContext";
+import { useTransfer } from "../contexts/TransferContext";
 
 import styles from "./ManageExpenseForm.module.css";
 
 function ManageExpenseForm({ id }) {
   const { expenses, setExpenses } = useExpenses();
   const { spaces, setSpaces } = useSpaces();
+  const { setLogs } = useLogs();
+  const { formattedDate } = useTransfer();
   const expense = expenses.find((expense) => Number(expense.id) === Number(id));
   const { description, amount, date, space } = expense;
   const [selectedSpace, setSelectedSpace] = useState(space || "");
@@ -17,7 +22,7 @@ function ManageExpenseForm({ id }) {
 
   useEffect(() => {
     if (actionCompleted) {
-      navigate("/spaces");
+      navigate("/transactions");
     }
   }, [actionCompleted, navigate]);
 
@@ -52,6 +57,12 @@ function ManageExpenseForm({ id }) {
 
       return space;
     });
+    const newLog = {
+      date: formattedDate,
+      description: `Edited transaction : ${expense.description}`,
+      type: "Transaction management",
+    };
+    setLogs((prevLogs) => [...prevLogs, newLog]);
     setSpaces(newSpaces);
     setActionCompleted(true);
   }

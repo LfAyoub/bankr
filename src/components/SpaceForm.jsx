@@ -30,7 +30,6 @@ function SpaceForm() {
       type: "Space management",
     };
     setLogs((prevLogs) => [...prevLogs, newLog]);
-    alert("Space created");
     setSpaceName("");
     setAmount(0);
     navigate(-1);

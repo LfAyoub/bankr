@@ -1,6 +1,6 @@
+import { useEffect } from "react";
 import { useParams } from "react-router";
-import { motion } from "framer-motion";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 import ManageExpenseForm from "../components/ManageExpenseForm";
 import Sidebar from "../components/Sidebar";
@@ -8,9 +8,10 @@ import MobileNav from "../components/MobileNav";
 import BackButton from "../components/BackButton";
 import { ExpensesProvider } from "../contexts/ExpensesContext";
 import { SpacesProvider } from "../contexts/SpacesContext";
+import { TransferProvider } from "../contexts/TransferContext";
+import { LogsProvider } from "../contexts/LogsContext";
 
 import styles from "./ExpensePage.module.css";
-import { useEffect } from "react";
 
 function ExpensePage() {
   const { id } = useParams();
@@ -32,7 +33,11 @@ function ExpensePage() {
         <h1>Manage expense</h1>
         <ExpensesProvider>
           <SpacesProvider>
-            <ManageExpenseForm id={id} />
+            <TransferProvider>
+              <LogsProvider>
+                <ManageExpenseForm id={id} />
+              </LogsProvider>
+            </TransferProvider>
           </SpacesProvider>
         </ExpensesProvider>
       </div>

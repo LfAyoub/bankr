@@ -55,7 +55,6 @@ function LogsList() {
 
   return (
     <div className={styles.logsList}>
-      <h1>Account logs</h1>
       {displayedLogs.length > 0 ? (
         <table className="table table-dark table-striped table-bordered">
           <thead>

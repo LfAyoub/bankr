@@ -6,6 +6,7 @@ import Sidebar from "../components/Sidebar";
 import MobileNav from "../components/MobileNav";
 import TransferList from "../components/TransferList";
 import BackButton from "../components/BackButton";
+import Footer from "../components/Footer";
 import { TransferProvider } from "../contexts/TransferContext";
 import { BalanceProvider } from "../contexts/BalanceContext";
 import { ExpensesProvider } from "../contexts/ExpensesContext";
@@ -66,6 +67,9 @@ function Transfer() {
           </BalanceProvider>
         </ExpensesProvider>
       </motion.div>
+      <Row className="d-md-none">
+        <Footer />
+      </Row>
     </>
   );
 }

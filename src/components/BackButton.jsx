@@ -11,11 +11,12 @@ function BackButton() {
     e.preventDefault();
     if (
       location.pathname === "/spaces" ||
-      location.pathname === "/expenses" ||
+      location.pathname === "/transactions" ||
       location.pathname === "/transfer" ||
-      location.pathname === "/graph"
+      location.pathname === "/graph" ||
+      location.pathname === "/logs"
     ) {
-      navigate("/");
+      navigate("/app");
     } else {
       navigate(-1);
     }

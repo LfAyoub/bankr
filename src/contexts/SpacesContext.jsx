@@ -5,19 +5,19 @@ const SpacesContext = createContext();
 function SpacesProvider({ children }) {
   const initialSpaces = [
     {
-      name: "Loisirs",
+      name: "Entertainment",
       amount: 250,
     },
     {
-      name: "Restaurant",
+      name: "Food",
       amount: 500,
     },
     {
-      name: "Cadeaux",
+      name: "Gifts",
       amount: 300,
     },
     {
-      name: "Voyages",
+      name: "Travel",
       amount: 1500,
     },
   ];

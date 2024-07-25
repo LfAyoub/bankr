@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <p className={styles.footerText}>
         ©{" "}
-        <a href="https://lafdail.dev" target="_blank">
+        <a href="https://github.com/LfAyoub" target="_blank">
           Ayoub Lafdail
         </a>{" "}
         - 2024
