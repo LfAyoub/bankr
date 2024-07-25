@@ -62,26 +62,26 @@ function Homepage() {
         exit="exit"
         className={styles.homepageMain}
       >
-        {user && <h1>Welcome back.</h1>}
+        {user && <h1>Welcome back !</h1>}
         <div className={styles.homepageSections}>
           <Container>
             <Row>
               <ExpensesProvider>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={10} lg={6} className="mx-auto">
                   <HomepageExpenses />
                 </Col>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={10} lg={6} className="mx-auto">
                   <HomepageGraph />
                 </Col>
               </ExpensesProvider>
             </Row>
             <Row>
-              <Col xs={12} md={6}>
+              <Col xs={12} md={10} lg={6} className="mx-auto">
                 <SpacesProvider>
                   <HomepageSpaces />
                 </SpacesProvider>
               </Col>
-              <Col xs={12} md={6}>
+              <Col xs={12} md={10} lg={6} className="mx-auto">
                 <TransferProvider>
                   <HomepageTransfer />
                 </TransferProvider>
