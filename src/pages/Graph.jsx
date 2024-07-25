@@ -53,12 +53,14 @@ function Graph() {
         exit="exit"
         className={styles.graph}
       >
-        <h1>Graph</h1>
-        <ExpensesProvider>
-          <BalanceProvider>
-            <ExpensesGraph />
-          </BalanceProvider>
-        </ExpensesProvider>
+        <Col md={12} className="mx-4">
+          <h1>Graph</h1>
+          <ExpensesProvider>
+            <BalanceProvider>
+              <ExpensesGraph />
+            </BalanceProvider>
+          </ExpensesProvider>
+        </Col>
       </motion.div>
     </>
   );
