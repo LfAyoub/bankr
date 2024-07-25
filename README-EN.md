@@ -8,7 +8,7 @@ BankR is an application that allows users to track and manage their transactions
 
 ## URL
 
-The project is accessible at the following URL: [bankr-react.com](https://bankr-react.com)
+The project is accessible at the following URL: [https://bankr.pages.dev](https://bankr.pages.dev)
 
 ## Usage
 
