@@ -77,10 +77,13 @@ function TransferModal({ show, handleClose }) {
           <Modal.Body className={styles.modalBody}>
             <form className={styles.transferForm}>
               <div className={styles.transferName}>
-                <p>Make a transfer to :</p>
-                <h3>
-                  {selectedBeneficiary.firstName} {selectedBeneficiary.lastName}
-                </h3>
+                <p>
+                  Make a transfer to :{" "}
+                  <span className={styles.transferBeneficiary}>
+                    {selectedBeneficiary.firstName}{" "}
+                    {selectedBeneficiary.lastName}
+                  </span>
+                </p>
               </div>
               <Balance />
               <label htmlFor="amount">Amount</label>

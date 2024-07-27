@@ -1,5 +1,4 @@
 .transferModal {
-  padding: 40px;
   color: white;
   cursor: default;
 }
@@ -13,7 +12,6 @@
 }
 
 .modalBody {
-  font-size: 1.5rem;
   text-align: center;
   background-color: rgb(31, 31, 31);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
@@ -25,16 +23,20 @@
 .transferName {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+}
+
+.transferBeneficiary {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .modalBody label {
+  font-size: 1.4rem;
   margin-top: 20px;
   margin-right: 20px;
 }
 
 .buttonsContainer {
-  width: 50%;
   margin: 20px auto;
   display: flex;
   justify-content: space-around;

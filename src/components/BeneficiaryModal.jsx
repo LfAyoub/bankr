@@ -4,6 +4,7 @@ import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTransfer } from "../contexts/TransferContext";
 import { useLogs } from "../contexts/LogsContext";
+import ErrorMessage from "./ErrorMessage";
 
 import styles from "./BeneficiaryModal.module.css";
 
@@ -11,6 +12,7 @@ function BeneficiaryModal({ show, handleClose }) {
   const [newFirstName, setNewFirstName] = useState("");
   const [newLastName, setNewLastName] = useState("");
   const [step, setStep] = useState(1);
+  const [showError, setShowError] = useState(false);
   const { beneficiaries, setBeneficiaries, formattedDate } = useTransfer();
   const { setLogs } = useLogs();
   const modalForm = (
@@ -33,6 +35,9 @@ function BeneficiaryModal({ show, handleClose }) {
           onChange={(e) => setNewLastName(e.target.value)}
         />
       </div>
+      {showError && (
+        <ErrorMessage message="Please fill in both fields before adding a beneficiary." />
+      )}
     </form>
   );
 
@@ -52,7 +57,7 @@ function BeneficiaryModal({ show, handleClose }) {
       setLogs((prevLogs) => [...prevLogs, newLog]);
       setStep(2);
     } else {
-      alert("Please fill in both fields before adding a beneficiary");
+      setShowError(true);
     }
   }
 

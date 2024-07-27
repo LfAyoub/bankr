@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/FakeAuthContext";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import ErrorMessage from "./ErrorMessage";
 
 import styles from "./LoginForm.module.css";
 
@@ -50,9 +51,7 @@ function LoginForm() {
                 Login
               </Button>
               {showErrorMessage ? (
-                <p className={styles.errorMessage}>
-                  Incorrect email or password
-                </p>
+                <ErrorMessage message="Incorrect email or password" />
               ) : null}
             </Col>
           </Row>

@@ -1,7 +1,5 @@
-import { useExpenses } from "../contexts/ExpensesContext";
-import { Line } from "react-chartjs-2";
 import { useMemo } from "react";
-
+import { Line } from "react-chartjs-2";
 import {
   Chart as ChartJS,
   LineElement,
@@ -13,6 +11,9 @@ import {
   Legend,
 } from "chart.js";
 import "chart.js/auto";
+import { useExpenses } from "../contexts/ExpensesContext";
+
+import styles from "./ExpensesGraph.module.css";
 
 // Enregistrer les composants nécessaires de Chart.js
 ChartJS.register(
@@ -24,8 +25,6 @@ ChartJS.register(
   Tooltip,
   Legend
 );
-
-import styles from "./ExpensesGraph.module.css";
 
 function ExpensesGraph({ page }) {
   const { expenses } = useExpenses();
