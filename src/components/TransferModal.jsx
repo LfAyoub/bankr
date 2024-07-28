@@ -20,7 +20,11 @@ function TransferModal({ show, handleClose }) {
   function handleTransfer(e, amount, instantTransferCheck) {
     e.preventDefault();
     if (amount <= 0) {
-      alert("Please enter a valid amount");
+      alert("Please enter a valid amount.");
+      return;
+    }
+    if (amount > balance) {
+      alert("Your balance must be positive after the transaction.");
       return;
     }
 
@@ -33,14 +37,19 @@ function TransferModal({ show, handleClose }) {
     };
 
     if (instantTransferCheck) {
-      const transferFee = {
-        id: Date.now() + 1,
-        type: "expense",
-        date: formattedDate,
-        description: "Instant transfer fee",
-        amount: 2,
-      };
-      setExpenses((prevExpenses) => [...prevExpenses, transferFee]);
+      if (amount + 2 > balance) {
+        alert("Your balance must be positive after the transaction.");
+        return;
+      } else {
+        const transferFee = {
+          id: Date.now() + 1,
+          type: "expense",
+          date: formattedDate,
+          description: "Instant transfer fee",
+          amount: 2,
+        };
+        setExpenses((prevExpenses) => [...prevExpenses, transferFee]);
+      }
     }
 
     setExpenses((prevExpenses) => [...prevExpenses, newExpense]);

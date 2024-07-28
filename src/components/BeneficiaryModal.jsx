@@ -43,7 +43,7 @@ function BeneficiaryModal({ show, handleClose }) {
 
   function handleAdd(e) {
     e.preventDefault();
-    if (newFirstName && newLastName) {
+    if (newFirstName.trim().length > 0 && newLastName.trim().length > 0) {
       const newBeneficiary = {
         firstName: newFirstName,
         lastName: newLastName,

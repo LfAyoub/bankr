@@ -5,12 +5,14 @@ import { useNavigate } from "react-router";
 import { useExpenses } from "../contexts/ExpensesContext";
 import { useTransfer } from "../contexts/TransferContext";
 import { useLogs } from "../contexts/LogsContext";
+import ErrorMessage from "./ErrorMessage";
 
 function CreateTransactionForm() {
   const [transactionType, setTransactionType] = useState("expense");
   const [description, setDescription] = useState("");
   const [amount, setAmount] = useState(0);
   const [note, setNote] = useState("");
+  const [message, setMessage] = useState("");
 
   const { setExpenses } = useExpenses();
   const { formattedDate } = useTransfer();
@@ -20,6 +22,14 @@ function CreateTransactionForm() {
 
   function handleCreateExpense(e) {
     e.preventDefault();
+    if (description.trim().length === 0) {
+      setMessage("Invalid transaction description");
+      return;
+    }
+    if (amount === 0) {
+      setMessage("Invalid amount");
+      return;
+    }
     const newExpense = {
       id: Date.now(),
       type: transactionType,
@@ -88,6 +98,7 @@ function CreateTransactionForm() {
           >
             Create
           </Button>
+          {message && <ErrorMessage message={message} />}
         </Form>
       </Col>
     </Container>

@@ -1,12 +1,11 @@
 import { useState } from "react";
 import { Container, Col, Form, Button } from "react-bootstrap";
 import { useNavigate } from "react-router";
-
+import ErrorMessage from "./ErrorMessage";
 import { useSpaces } from "../contexts/SpacesContext";
-
-import styles from "./SpaceForm.module.css";
 import { useLogs } from "../contexts/LogsContext";
 import { useTransfer } from "../contexts/TransferContext";
+import styles from "./SpaceForm.module.css";
 
 function SpaceForm() {
   const { spaces, setSpaces } = useSpaces();
@@ -14,25 +13,31 @@ function SpaceForm() {
   const { formattedDate } = useTransfer();
   const [spaceName, setSpaceName] = useState("");
   const [amount, setAmount] = useState(1);
+  const [showError, setShowError] = useState(false);
 
   const navigate = useNavigate();
 
   function handleCreate(e) {
     e.preventDefault();
-    const newSpace = {
-      name: spaceName,
-      amount: amount,
-    };
-    setSpaces([...spaces, newSpace]);
-    const newLog = {
-      date: formattedDate,
-      description: `New space created : ${spaceName}`,
-      type: "Space management",
-    };
-    setLogs((prevLogs) => [...prevLogs, newLog]);
-    setSpaceName("");
-    setAmount(0);
-    navigate(-1);
+    if (spaceName.trim().length === 0) {
+      setShowError(true);
+      return;
+    } else {
+      const newSpace = {
+        name: spaceName,
+        amount: amount,
+      };
+      setSpaces([...spaces, newSpace]);
+      const newLog = {
+        date: formattedDate,
+        description: `New space created : ${spaceName}`,
+        type: "Space management",
+      };
+      setLogs((prevLogs) => [...prevLogs, newLog]);
+      setSpaceName("");
+      setAmount(0);
+      navigate(-1);
+    }
   }
 
   return (
@@ -58,6 +63,7 @@ function SpaceForm() {
             />
           </Form.Group>
           <Button onClick={handleCreate}>Create</Button>
+          {showError && <ErrorMessage message="Invalid space name" />}
         </Form>
       </Col>
     </Container>
