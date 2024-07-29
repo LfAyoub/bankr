@@ -61,13 +61,15 @@ function ExpensesList() {
             )}
           </div>
         </Col>
-        <Row>
-          <Col className="text-center mt-3">
-            <Button variant="secondary" onClick={showMore}>
-              Show more
-            </Button>
-          </Col>
-        </Row>
+        {transactionsNumber <= sortedExpenses.length ? (
+          <Row>
+            <Col className="text-center mt-3">
+              <Button variant="secondary" onClick={showMore}>
+                Show more
+              </Button>
+            </Col>
+          </Row>
+        ) : null}
       </Container>
     </>
   );
