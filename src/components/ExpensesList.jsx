@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useExpenses } from "../contexts/ExpensesContext";
 import { Link } from "react-router-dom";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 import { useSortType } from "../contexts/SortTypeContext";
 import ExpenseItem from "./ExpenseItem";
@@ -14,6 +14,7 @@ function ExpensesList() {
   const { expenses } = useExpenses();
   const { sortType } = useSortType();
   const [sortedExpenses, setSortedExpenses] = useState([]);
+  const [transactionsNumber, setTransactionsNumber] = useState(6);
 
   useEffect(() => {
     const filteredExpenses = expenses.filter((expense) => {
@@ -27,6 +28,10 @@ function ExpensesList() {
       filteredExpenses.sort((a, b) => new Date(b.date) - new Date(a.date))
     );
   }, [expenses, sortType]);
+
+  function showMore() {
+    setTransactionsNumber(transactionsNumber + 6);
+  }
 
   return (
     <>
@@ -45,7 +50,7 @@ function ExpensesList() {
         </Col>
         <Col xl={7} lg={8} md={10} xs={12} className="mx-auto">
           <div className={styles.expensesList}>
-            {sortedExpenses.map((expense) =>
+            {sortedExpenses.slice(0, transactionsNumber).map((expense) =>
               expense.type === "expense" ? (
                 <Link to={`${expense.id}`} key={`${expense.id}`}>
                   <ExpenseItem expense={expense} />
@@ -56,6 +61,13 @@ function ExpensesList() {
             )}
           </div>
         </Col>
+        <Row>
+          <Col className="text-center mt-3">
+            <Button variant="secondary" onClick={showMore}>
+              Show more
+            </Button>
+          </Col>
+        </Row>
       </Container>
     </>
   );
