@@ -1,7 +1,5 @@
-import { Form } from "react-bootstrap";
+import { Button, Col } from "react-bootstrap";
 import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import { useLogs } from "../contexts/LogsContext";
 
 import styles from "./LogsList.module.css";
@@ -12,6 +10,7 @@ function LogsList() {
   const [sortByType, setSortByType] = useState(false);
   const [sortByDescription, setSortByDescription] = useState(false);
   const [displayedLogs, setDisplayedLogs] = useState(logs);
+  const [logsNumber, setLogsNumber] = useState(6);
   function handleSortByDate(e) {
     e.preventDefault();
     const sortedLogs = [...logs].sort((a, b) => {
@@ -53,27 +52,40 @@ function LogsList() {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
 
+  function showMore() {
+    setLogsNumber(logsNumber + 6);
+  }
+
   return (
     <div className={styles.logsList}>
       {displayedLogs.length > 0 ? (
-        <table className="table table-dark table-striped table-bordered">
-          <thead>
-            <tr>
-              <th onClick={handleSortByDate}>Date</th>
-              <th onClick={handleSortByDescription}>Description</th>
-              <th onClick={handleSortByType}>Type</th>
-            </tr>
-          </thead>
-          <tbody>
-            {displayedLogs.map((log, index) => (
-              <tr key={index}>
-                <td>{log.date}</td>
-                <td>{log.description}</td>
-                <td>{capitalizeFirstLetter(log.type)}</td>
+        <>
+          <table className="table table-dark table-striped table-bordered">
+            <thead>
+              <tr>
+                <th onClick={handleSortByDate}>Date</th>
+                <th onClick={handleSortByDescription}>Description</th>
+                <th onClick={handleSortByType}>Type</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {displayedLogs.slice(0, logsNumber).map((log, index) => (
+                <tr key={index}>
+                  <td>{log.date}</td>
+                  <td>{log.description}</td>
+                  <td>{capitalizeFirstLetter(log.type)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <Col className="mx-auto">
+            {logsNumber <= displayedLogs.length ? (
+              <Button variant="secondary" onClick={showMore}>
+                Show more
+              </Button>
+            ) : null}
+          </Col>
+        </>
       ) : (
         <p>No logs available</p>
       )}
