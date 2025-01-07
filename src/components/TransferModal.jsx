@@ -19,11 +19,11 @@ function TransferModal({ show, handleClose }) {
 
   function handleTransfer(e, amount, instantTransferCheck) {
     e.preventDefault();
-    if (amount <= 0) {
+    if (Number(amount) <= 0) {
       alert("Please enter a valid amount.");
       return;
     }
-    if (amount > balance) {
+    if (Number(amount) > balance) {
       alert("Your balance must be positive after the transaction.");
       return;
     }
@@ -37,8 +37,9 @@ function TransferModal({ show, handleClose }) {
     };
 
     if (instantTransferCheck) {
-      if (amount + 2 > balance) {
+      if (Number(amount) + 2 > balance) {
         alert("Your balance must be positive after the transaction.");
+        console.log(balance, Number(amount) + 2);
         return;
       } else {
         const transferFee = {
